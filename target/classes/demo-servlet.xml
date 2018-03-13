@@ -10,7 +10,7 @@
     <!--springmvc驱动扫描包  -->
     <mvc:annotation-driven />
 
-    <!--定义Controller扫描包,用户扫描Controller并创建代理对象 -->
-    <context:component-scan base-package="com.zjitc.page.controller"/>
+        <!--定义Controller扫描包,用户扫描Controller并创建代理对象 -->
+<context:component-scan base-package="com.zjitc.test.controller"/>
 
-</beans>
+        </beans>

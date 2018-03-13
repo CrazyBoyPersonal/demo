@@ -4,7 +4,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="PAGE" />
+          <element id="module-output" name="demo" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.1.3.RELEASE" />
@@ -35,7 +35,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/PAGE/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="PAGE/web/Web" />
+      <element id="javaee-facet-resources" facet="demo/web/Web" />
     </root>
   </artifact>
 </component>
